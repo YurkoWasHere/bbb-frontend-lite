@@ -1,6 +1,6 @@
 <?php
 $secret="-----";
-$hostname="bbb.hypha.coop"
+$hostname="bbb.hypha.coop";
 
 // Creates URL (including checksum) used interact with API includin
 function getBBBAPIurl($secret,$apiName,$param) {
